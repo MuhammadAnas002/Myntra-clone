@@ -1,0 +1,98 @@
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bold;
+}
+.column{
+    flex-direction: column;
+}
+.p-0{
+    padding: 0;
+}
+.m-0{
+    margin: 0;
+}
+.dot-btn-div{
+    height: 40px;
+    /* background-color: aquamarine; */
+}
+
+.dot-btn{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #7e818c;
+    margin-left: 12px;
+    opacity: 0.4;
+    transition: opacity 0.2s, transform 0.2s;
+    cursor: pointer;
+}
+.dot-btn-div button.active{
+    opacity: 1;
+}
+.dot-btn-div button:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.heading{
+    height: 45px;
+    margin: 52px 0 11px 35px;
+}
+.heading h1{
+    color: #3e4152;
+    font-size: 33px;
+}
+.homeimg-2{
+    height: 302.3px;
+    width: 100%;
+    margin-top: 42px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 60px;
+}
+.slides-2{
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    height: 100%;
+}
+.slide-2{
+    min-width: 100%;
+    transition: transform 0.6s ease-in-out;
+    height: 100%;
+}
+
+.LUXE-GRAND{
+    height: 245.3px;
+    padding-top: 60px;
+}
+.bag{
+    height: 252.3px;
+    padding-top: 60px;
+}
+.shop-by-cat{
+    height: 251px;
+    display: flex;
+    margin-top: 80px;
+}
+.shop-next{
+    height: 251px;
+    display: flex;
+}
+.shop-last{
+    display: flex;
+    height: 251px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
