@@ -15,5 +15,3 @@ This is a basic **Myntra Homepage Clone** built using **HTML**, **CSS**, and **J
 - CSS3
 - JavaScript (Vanilla)
 
-## 📂 Project Structure
-
